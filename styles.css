@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: lightgray;
+}
+.wrapper{
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+header{
+    background-color: green;
+    height: 150px;
+}
+#sideMenu{
+    display: inline-block;
+    min-height: 400px;
+    width: 25%;
+    background-color: blue;
+    margin-top: 30px;
+    margin-right: 32px;
+}
+#main{
+    display: inline-block;
+    min-height: 700px;
+    width: 72%;
+    background-color: red;
+    margin-top: 30px;
+    vertical-align: top;
+}
+.yellow {
+    background-color: yellow;
+    min-height: 250px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 70px 80px 85px;
+}
+#purple {
+    background-color: purple;
+    width: 86%;
+    min-height: 180px;
+    margin: 0 auto;
+}
